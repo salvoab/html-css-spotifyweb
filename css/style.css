@@ -3,3 +3,68 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  color: white;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.flex-dir-col{
+  flex-direction: column;
+}
+
+.flex-dir-row{
+  flex-direction: row;
+}
+
+.wrapper{
+  height: 100vh;
+  justify-content: space-between;
+}
+
+#site-content{
+  height: calc(100% - 60px); /* 60px altezza del footer */
+  align-items: stretch;
+}
+
+.music-section{
+  margin-top: 60px; /* altezza del subscribe-banner */
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.subscribe-banner {
+  height: 60px;
+  line-height: 60px;
+  width: calc(100% - 300px);
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #080b12;
+  text-align: right;
+}
+
+.subscribe-banner a{
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.main-menu{
+  min-width: 300px;
+  background-color: black;
+}
+
+.music-section{
+  background-color: #141922;
+}
+
+#site-footer{
+  height: 60px;
+  background-color: green;
+}
