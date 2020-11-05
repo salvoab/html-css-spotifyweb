@@ -32,6 +32,10 @@ ul li a{
   text-decoration: none;
   color: #797c80;
 }
+
+section{
+  padding-top: 50px;
+}
 /* END General */
 
 /* Utility */
@@ -105,7 +109,7 @@ ul li a{
 
 #content-navbar ul li a:hover:after {
   position:absolute;
-  bottom: -5px;
+  bottom: 0;
   left: 30%;
   right: 30%;
   content: '';
@@ -121,10 +125,6 @@ ul li a{
   border: 2px solid white;
   border-radius: 10px;
   padding: 10px;
-}
-
-section{
-  padding-top: 50px;
 }
 
 .albums{
@@ -167,6 +167,17 @@ section{
 .img-box:hover .overlay{
   display: block;
   cursor: pointer;
+}
+
+#created-for p, #popular p{
+  margin-left: 40px;
+  padding-top: 15px;
+}
+
+#popular .img-box,
+#popular .img-box > img,
+#popular .overlay{
+  border-radius: 50%;
 }
 
 #site-footer{
