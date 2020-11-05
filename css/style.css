@@ -88,11 +88,12 @@ ul li a{
 }
 
 #content-navbar ul{
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 #content-navbar ul li a{
-  padding: 0 15px;
+  padding: 15px;
   display: inline-block;
   text-transform: uppercase;
   position: relative;
