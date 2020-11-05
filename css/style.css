@@ -63,14 +63,14 @@ section{
 }
 
 .main-menu{
-  min-width: 300px;
+  min-width: 250px;
   background-color: black;
 }
 
 .subscribe-banner {
   height: 60px;
   line-height: 60px;
-  width: calc(100% - 300px);
+  width: calc(100% - 250px);
   position: fixed;
   top: 0;
   right: 0;
@@ -135,7 +135,7 @@ section{
 .album{
   flex-basis: 200px;
   height: 200px;
-  margin: 40px;
+  margin: 40px 5px;
   text-align: center;
 }
 .album img{
