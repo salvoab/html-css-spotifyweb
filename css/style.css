@@ -5,7 +5,7 @@
 }
 /* Typo */
 h2{
-  margin-left: px;
+  margin-left: 40px;
   font-weight: 900;
 }
 
@@ -18,11 +18,23 @@ p{
 }
 /* END Typo */
 
+/* General */
 body{
   font-family: 'Roboto', sans-serif;
   color: white;
 }
 
+ul li{
+  list-style: none;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #797c80;
+}
+/* END General */
+
+/* Utility */
 .d-flex{
   display: flex;
 }
@@ -34,6 +46,7 @@ body{
 .flex-dir-row{
   flex-direction: row;
 }
+/* END Utility */
 
 .wrapper{
   height: 100vh;
@@ -50,14 +63,6 @@ body{
   background-color: black;
 }
 
-.music-section{
-  width: 100%;
-  margin-top: 60px; /* altezza del subscribe-banner */
-  overflow-y: scroll;
-  overflow-x: hidden;
-  background-color: #141922;
-}
-
 .subscribe-banner {
   height: 60px;
   line-height: 60px;
@@ -68,6 +73,46 @@ body{
   background-color: #080b12;
   text-align: right;
 }
+/* Music-section */
+.music-section{
+  width: 100%;
+  margin-top: 60px; /* altezza del subscribe-banner */
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #141922;
+}
+
+/* content-navbar */
+#content-navbar{
+  padding-top: 30px;
+}
+
+#content-navbar ul{
+  justify-content: center;
+}
+
+#content-navbar ul li a{
+  padding: 0 15px;
+  display: inline-block;
+  text-transform: uppercase;
+  position: relative;
+}
+
+#content-navbar ul li a:hover{
+  color: white;
+}
+
+#content-navbar ul li a:hover:after {
+  position:absolute;
+  bottom: -5px;
+  left: 30%;
+  right: 30%;
+  content: '';
+  height: 2px;
+  background-color: #adff2f;
+  display:block;
+}
+/* END content-navbar */
 
 .subscribe-banner a{
   color: white;
