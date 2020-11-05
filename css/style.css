@@ -30,10 +30,17 @@ body{
   align-items: stretch;
 }
 
+.main-menu{
+  min-width: 300px;
+  background-color: black;
+}
+
 .music-section{
+  width: 100%;
   margin-top: 60px; /* altezza del subscribe-banner */
   overflow-y: scroll;
   overflow-x: hidden;
+  background-color: #141922;
 }
 
 .subscribe-banner {
@@ -55,13 +62,17 @@ body{
   padding: 10px;
 }
 
-.main-menu{
-  min-width: 300px;
-  background-color: black;
+.albums{
+  padding-top: 20px;
+  flex-wrap: wrap;
 }
 
-.music-section{
-  background-color: #141922;
+.album{
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  background-color: red;
+  border: 1px solid white;
 }
 
 #site-footer{
