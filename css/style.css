@@ -5,7 +5,7 @@
 }
 /* Typo */
 h2{
-  margin-left: 40px;
+  margin-left: 14px;
   font-weight: 900;
 }
 
@@ -133,9 +133,9 @@ section{
 }
 
 .album{
-  flex-basis: 200px;
+  flex-basis: 180px;
   height: 200px;
-  margin: 40px 5px;
+  margin: 30px 14px;
   text-align: center;
 }
 .album img{
@@ -170,7 +170,7 @@ section{
 }
 
 #created-for p, #popular p{
-  margin-left: 40px;
+  margin-left: 14px;
   padding-top: 15px;
 }
 
