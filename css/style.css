@@ -29,7 +29,7 @@ ul li{
   list-style: none;
 }
 
-ul li a{
+ul li a, a{
   text-decoration: none;
   color: #797c80;
 }
@@ -107,6 +107,12 @@ section{
   vertical-align: middle;
 }
 
+.main-menu ul li img,
+.bottom-menu img{
+  width: 30px;
+  vertical-align: middle;
+}
+
 .main-menu ul li span{
   font-size: 0.8rem;
   margin-left: 10px;
@@ -115,6 +121,22 @@ section{
 .playlist-menu ul{
   max-height: 200px;
   overflow-y: scroll;
+}
+
+.bottom-menu{
+  margin-top: auto;
+}
+.bottom-menu a{
+  margin-left: 8px;
+}
+.bottom-menu a:last-child{
+  color: white;
+}
+.bottom-menu a:hover{
+  color: white;
+}
+.bottom-menu hr{
+  margin: 8px 0;
 }
 /* END main-menu */
 
