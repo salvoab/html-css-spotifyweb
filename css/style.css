@@ -62,10 +62,17 @@ section{
   align-items: stretch;
 }
 
+/* main-menu */
 .main-menu{
-  min-width: 250px;
+  width: 250px;
+  padding: 20px;
   background-color: black;
 }
+
+.main-menu img{
+  width: 60%;
+}
+/* END main-menu */
 
 .subscribe-banner {
   height: 60px;
@@ -79,7 +86,7 @@ section{
 }
 /* Music-section */
 .music-section{
-  width: 100%;
+  width: calc(100% - 250px);
   margin-top: 60px; /* altezza del subscribe-banner */
   overflow-y: scroll;
   overflow-x: hidden;
