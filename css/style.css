@@ -50,6 +50,17 @@ section{
 .flex-dir-row{
   flex-direction: row;
 }
+
+.mt-20{
+  margin-top: 20px;
+}
+
+.p-20{
+  padding: 20px;
+}
+.pl-20{
+  padding-left: 20px;
+}
 /* END Utility */
 
 .wrapper{
@@ -65,12 +76,38 @@ section{
 /* main-menu */
 .main-menu{
   width: 250px;
-  padding: 20px;
   background-color: black;
 }
 
-.main-menu img{
+.main-menu .logo-box img{
   width: 60%;
+}
+
+.top-menu ul li:hover{
+  border-left: 2px solid #adff2f;
+}
+
+.top-menu ul li,
+.top-menu ul li a{
+  line-height: 3rem;
+}
+
+.top-menu ul li a{
+  display: block;
+  width: 100%;
+}
+.top-menu ul li a:hover{
+  color: white;
+}
+
+.top-menu ul li i{
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+.top-menu ul li span{
+  font-size: 1rem;
+  margin-left: 10px;
 }
 /* END main-menu */
 
