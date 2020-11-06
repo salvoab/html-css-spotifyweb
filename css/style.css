@@ -22,6 +22,7 @@ p{
 body{
   font-family: 'Roboto', sans-serif;
   color: white;
+  background-color: black;
 }
 
 ul li{
@@ -51,8 +52,8 @@ section{
   flex-direction: row;
 }
 
-.mt-20{
-  margin-top: 20px;
+.mt-10{
+  margin-top: 10px;
 }
 
 .p-20{
@@ -83,31 +84,37 @@ section{
   width: 60%;
 }
 
-.top-menu ul li:hover{
+.main-menu ul li:hover{
   border-left: 2px solid #adff2f;
 }
 
-.top-menu ul li,
-.top-menu ul li a{
-  line-height: 3rem;
+.main-menu ul li,
+.main-menu ul li a{
+  line-height: 2rem;
+  font-size: 0.8rem;
 }
 
-.top-menu ul li a{
+.main-menu ul li a{
   display: block;
   width: 100%;
 }
-.top-menu ul li a:hover{
+.main-menu ul li a:hover{
   color: white;
 }
 
-.top-menu ul li i{
-  font-size: 2rem;
+.main-menu ul li i{
+  font-size: 1.5rem;
   vertical-align: middle;
 }
 
-.top-menu ul li span{
-  font-size: 1rem;
+.main-menu ul li span{
+  font-size: 0.8rem;
   margin-left: 10px;
+}
+
+.playlist-menu ul{
+  max-height: 200px;
+  overflow-y: scroll;
 }
 /* END main-menu */
 
@@ -227,4 +234,5 @@ section{
 #site-footer{
   height: 60px;
   background-color: green;
+  z-index: 1;
 }
