@@ -258,3 +258,10 @@ section{
   background-color: green;
   z-index: 1;
 }
+
+/* Media query */
+@media screen and (max-height: 570px) {
+  .playlist-menu{
+    display: none;
+  }
+}
