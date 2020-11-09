@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SpotifyWeb Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="wrapper d-flex flex-dir-col">
+      <main id="site-content" class="d-flex flex-dir-row">
+        <aside class="main-menu d-flex flex-dir-col">
+          <div class="logo-box p-20">
+            <img id="logo-lg" src="../img/logo.svg" alt="spotify logo">
+            <img id="logo-xs" src="../img/logo-small.svg" alt="spotify logo">
+          </div>
+          <!-- /.logo-box -->
+
+          <div class="top-menu mt-10">
+            <ul>
+              <li class="pl-20">
+                <a href="#">
+                  <img src="../img/home.svg" alt="home"> <span>Home</span>
+                </a>
+              </li>
+              <li class="pl-20">
+                <a href="#">
+                  <img src="../img/search.svg" alt="search"> <span>Cerca</span>
+                </a>
+              </li>
+              <li class="pl-20">
+                <a href="#">
+                  <img src="../img/libreria.svg" alt="libreria"> <span>Le tue playlist</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.top-menu -->
+
+          <div class="playlist-menu mt-10 d-flex flex-dir-col">
+            <h4 class="pl-20">PLAYLIST</h4>
+            <ul class="mt-10">
+              <li class="pl-20">
+                <a href="#">
+                  <i class="fas fa-plus-square"></i>
+                  <span>Crea Playlist</span>
+                </a>
+              </li>
+              <li class="pl-20"><a href="#">Nome Playlist</a></li>
+              <li class="pl-20"><a href="#">Nome Playlist</a></li>
+              <li class="pl-20"><a href="#">Nome Playlist</a></li>
+              <li class="pl-20"><a href="#">Nome Playlist</a></li>
+              <li class="pl-20"><a href="#">Nome Playlist</a></li>
+              <li class="pl-20"><a href="#">Nome Playlist</a></li>
+              <li class="pl-20"><a href="#">Nome Playlist</a></li>
+            </ul>
+          </div>
+          <!-- /.playlist-menu -->
+
+          <div class="bottom-menu">
+            <a href="#">
+               <img src="../img/download.svg" alt="download">
+               <span>Installa app</span>
+            </a>
+            <hr>
+            <a href="#">
+               <img src="../img/profile.svg" alt="profile">
+              <span><strong>John Doe</strong></span>
+            </a>
+          </div>
+          <!-- /.bottom-menu -->
+        </aside>
+        <!-- / .main-menu -->
+
+        <div class="music-section">
+          <div class="subscribe-banner">
+            <a href="#">EFFETTUA L'UPGRADE</a>
+          </div>
+          <!-- /.subscribe-banner -->
+          <nav id="content-navbar">
+            <ul class="d-flex flex-dir-row">
+              <li><a href="#">in evidenza</a></li>
+              <li><a href="#">podcast</a></li>
+              <li><a href="#">classifiche</a></li>
+              <li><a href="#">generi e mood</a></li>
+              <li><a href="#">nuove uscite</a></li>
+              <li><a href="#">scopri</a></li>
+            </ul>
+          </nav>
+
+          <section id="recently-played">
+            <h2>Recently played</h2>
+            <div class="albums d-flex flex-dir-row">
+              <div class="album">
+                <div class="img-box">
+                  <div class="overlay"><i class="far fa-play-circle"></i></div>
+                  <img src="../img/metal_lifting.jpg" alt="metal lifting album">
+                </div>
+                <!-- /.img-box -->
+                <h3>Heavy metal</h3>
+                <p>Subtitle</p>
+              </div>
+              <!-- /.album -->
+              <div class="album">
+                <div class="img-box">
+                  <div class="overlay"><i class="far fa-play-circle"></i></div>
+                  <img src="../img/aquietplace.jpeg" alt="a quiet place album">
+                </div>
+                <!-- /.img-box -->
+                <h3>A quiet place</h3>
+                <p>Subtitle</p>
+              </div>
+              <!-- /.album -->
+              <div class="album">
+                <div class="img-box">
+                  <div class="overlay"><i class="far fa-play-circle"></i></div>
+                  <img src="../img/player_left.jpg" alt="Hilltop hoods album">
+                </div>
+                <!-- /.img-box -->
+                <h3>Hilltop hoods</h3>
+                <p>Subtitle</p>
+              </div>
+              <!-- /.album -->
+              <div class="album">
+                <div class="img-box">
+                  <div class="overlay"><i class="far fa-play-circle"></i></div>
+                  <img src="../img/split.jpeg" alt="split album">
+                </div>
+                <!-- /.img-box -->
+                <h3>Split</h3>
+                <p>Subtitle</p>
+              </div>
+              <!-- /.album -->
+              <div class="album">
+                <div class="img-box">
+                  <div class="overlay"><i class="far fa-play-circle"></i></div>
+                  <img src="../img/cure.jpeg" alt="a cure for wellness album">
+                </div>
+                <!-- /.img-box -->
+                <h3>A cure for wellness</h3>
+                <p>Subtitle</p>
+              </div>
+              <!-- /.album -->
+              <div class="album">
+                <div class="img-box">
+                  <div class="overlay"><i class="far fa-play-circle"></i></div>
+                  <img src="../img/sinister.jpeg" alt="sinister album">
+                </div>
+                <!-- /.img-box -->
+                <h3>Sinister</h3>
+                <p>Subtitle</p>
+              </div>
+              <!-- /.album -->
+            </div>
+          </section>
+          <!-- /#recently-played section -->
+
+          <section id="created-for">
+            <h2>Creato per John Doe</h2>
+            <p>Più ascolti, più accurati saranno i suggerimenti</p>
+            <div class="albums d-flex flex-dir-row">
+              <div class="album">
+                <div class="img-box">
+                  <div class="overlay"><i class="far fa-play-circle"></i></div>
+                  <img src="../img/radar.jpeg" alt="release radar">
+                </div>
+                <!-- /.img-box -->
+                <h3>Release Radar</h3>
+              </div>
+              <!-- /.album -->
+              <div class="album">
+                <div class="img-box">
+                  <div class="overlay"><i class="far fa-play-circle"></i></div>
+                  <img src="../img/mixdaily.jpeg" alt="daily mix">
+                </div>
+                <!-- /.img-box -->
+                <h3>Daily Mix 1</h3>
+              </div>
+              <!-- /.album -->
+            </div>
+          </section>
+          <!-- /#created-for section -->
+
+          <section id="popular">
+            <h2>Artisti più popolari</h2>
+            <p>Più ascolti, più accurati saranno i suggerimenti</p>
+            <div class="albums d-flex flex-dir-row">
+              <div class="album">
+                <div class="img-box">
+                  <div class="overlay"><i class="far fa-play-circle"></i></div>
+                  <img src="../img/youg.jpeg" alt="youg artist">
+                </div>
+                <!-- /.img-box -->
+                <h3>Youg</h3>
+              </div>
+              <!-- /.album -->
+              <div class="album">
+                <div class="img-box">
+                  <div class="overlay"><i class="far fa-play-circle"></i></div>
+                  <img src="../img/einaudi.jpeg" alt="artist einaudi">
+                </div>
+                <!-- /.img-box -->
+                <h3>Einaudi</h3>
+              </div>
+              <!-- /.album -->
+            </div>
+          </section>
+          <!-- /#popular section -->
+        </div>
+        <!-- /.music-section -->
+      </main>
+      <!-- /#site-content -->
+
+      <footer id="site-footer">
+        <div class="player d-flex flex-dir-row">
+          <div class="player-left d-flex flex-dir-row">
+            <img src="../img/sinister.jpeg" alt="album split">
+            <div class="song-description">
+              <strong>Sinister</strong>
+              <p>Nome Brano</p>
+            </div>
+            <!-- /.song-description -->
+            <i class="far fa-heart"></i>
+            <i class="far fa-folder"></i>
+          </div>
+          <!-- /.player-left -->
+          <div class="player-middle d-flex flex-dir-col">
+              <div class="player-icons">
+                <i class="fas fa-random"></i>
+                <i class="fas fa-step-backward"></i>
+                <i class="far fa-play-circle"></i>
+                <i class="fas fa-step-forward"></i>
+                <i class="fas fa-redo-alt"></i>
+              </div>
+
+              <div class="slider d-flex flex-dir-row">
+                <span>0:25</span>
+                <div class="fake-slider"> <div class="slider-thumb"></div> </div>
+                <span>4:35</span>
+              </div>
+          </div>
+          <!-- /.player-middle -->
+          <div class="player-right d-flex flex-dir-row">
+            <i class="fas fa-list"></i>
+            <i class="fas fa-desktop"></i>
+            <i class="fas fa-volume-up"></i>
+            <div class="fake-slider"> <div class="slider-thumb"></div> </div>
+          </div>
+          <!-- /.player-right -->
+        </div>
+      </footer>
+      <!-- /#site-footer -->
+    </div>
+    <!-- /.wrap d-flex flex-dir-col -->
+  </body>
+</html>
