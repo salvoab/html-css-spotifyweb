@@ -392,6 +392,14 @@ section{
   }
 }
 
+/* BONUS altezza 350px bottom-menu della aside non visibile*/
+@media screen and (max-height: 350px) {
+  .bottom-menu{
+    display: none;
+  }
+}
+
+
 /* xs media-query */
 @media screen and (max-width: 768px) {
   #logo-lg{
