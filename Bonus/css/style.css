@@ -310,7 +310,7 @@ section{
   flex: 1 1 auto;
 }
 .player-left img{
-  width: 40px;
+  width: 20%;
 }
 
 .player-middle{
@@ -438,5 +438,22 @@ section{
 
   .music-section{
     width: calc(100% - 50px);
+  }
+}
+
+/* Rimpicciolire le dimensioni dei componenti del footer */
+@media screen and (max-width: 560px) {
+  #site-footer{
+    font-size: 0.5rem;
+  }
+  .player-left{
+    max-width: 100px;
+  }
+  .player-icons i{
+    padding: 0 6px;
+    font-size: 0.5rem;
+  }
+  .player-icons i:nth-child(3){
+    font-size: 1rem;
   }
 }
