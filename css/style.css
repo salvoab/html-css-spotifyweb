@@ -274,6 +274,13 @@ section{
   background-color: #282828;
   z-index: 1;
 }
+
+#site-footer i{
+  color: #797c80;
+}
+#site-footer i:hover{
+  color: white;
+}
 .player{
   height: 80px;
   justify-content: space-between;
@@ -308,6 +315,7 @@ section{
 
 .slider{
   width: 100%;
+  align-items: center;
 }
 
 .fake-slider{
