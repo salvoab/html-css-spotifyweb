@@ -456,4 +456,11 @@ section{
   .player-icons i:nth-child(3){
     font-size: 1rem;
   }
+  .player-middle{
+    max-width: 200px;
+  }
+  .player-right{
+    max-width: 100px;
+    margin: 0 2px;
+  }
 }
