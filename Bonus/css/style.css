@@ -222,7 +222,7 @@ section{
 .albums{
   padding-top: 20px;
   flex-wrap: wrap;
-  /* Bonus album non vanno a capo ma non vengono visualizzati
+  /* BONUS album non vanno a capo ma non vengono visualizzati
      quando la finestra si restringe*/
   height: 300px;
   overflow: hidden;
@@ -246,7 +246,6 @@ section{
   position: absolute;
   top: 0;
   left: 0;
-  color: white;
   background-color: rgba(0, 0, 0, 0.4);
   width: 100%;
   height: 100%;
@@ -255,11 +254,20 @@ section{
 }
 .overlay i{
   position: absolute;
-  top: 50%;
+  /* START BONUS transizione su hover icona play */
+  bottom: 0;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
+  color: #797c80;
+  transition: 0.5s linear;
 }
 
+.overlay:hover i{
+  bottom: 30%;
+  color: white;
+  /*transform: translateY(-50%);*/
+}
+/*FINE BONUS*/
 .img-box:hover .overlay{
   display: block;
   cursor: pointer;
