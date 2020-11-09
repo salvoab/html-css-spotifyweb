@@ -80,8 +80,12 @@ section{
   background-color: black;
 }
 
-.main-menu .logo-box img{
+#logo-lg{
   width: 60%;
+}
+
+#logo-xs{
+  display: none;
 }
 
 .main-menu ul li:hover{
@@ -381,5 +385,38 @@ section{
 @media screen and (max-height: 400px) {
   .playlist-menu{
     display: none;
+  }
+}
+
+/* xs media-query */
+@media screen and (max-width: 768px) {
+  #logo-lg{
+    display: none;
+  }
+  #logo-xs{
+    display: inline-block;
+    width: 30px;
+  }
+  .main-menu span{
+    display: none;
+  }
+
+  .playlist-menu{
+    display: none;
+  }
+
+  .main-menu .pl-20, .main-menu .p-20{
+    padding-left: 0;
+    margin: 8px;
+  }
+  .main-menu{
+    width: 50px;
+  }
+  .subscribe-banner {
+    width: calc(100% - 50px);
+  }
+
+  .music-section{
+    width: calc(100% - 50px);
   }
 }
